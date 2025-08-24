@@ -1,0 +1,92 @@
+* { margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/03/one-piece-sanji-in-smoking-desktop-wallpaper-cover.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 200px;
+  border: 3px solid #333;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  opacity: 0.9;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.form-example {
+  margin-top: 40px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+input::placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.box > .content > h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
